@@ -1,13 +1,13 @@
 <template>
   <div>
     <el-tabs v-model="activeName">
-      <el-tab-pane label="组件" name="first">
+      <el-tab-pane label="组件示例" name="first">
         <component-demo/>
       </el-tab-pane>
-      <el-tab-pane label="路由" name="second">
+      <el-tab-pane label="路由示例" name="second">
 
       </el-tab-pane>
-      <el-tab-pane label="Vuex" name="third">
+      <el-tab-pane label="Vuex示例" name="third">
 
       </el-tab-pane>
     </el-tabs>
